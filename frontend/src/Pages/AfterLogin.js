@@ -24,6 +24,9 @@ const AfterLogin = () => {
                 <div className='dr_title'>Data received</div>
                 <pre className='dr_data'>{JSON.stringify(dataReceived, null, 2)}</pre>
             </div>
+
+            <div className='go_back'><button onClick={()=>{window.location.reload()}}>Back to login buttons</button></div>
+
         </div>
     )
 }

@@ -26,7 +26,7 @@ const Facebook = ({ setter }) => {
         <div className='lg_grid_ele'>
             <FacebookLogin
                 appId={process.env.REACT_APP_FACEBOOK_APP_ID}
-                autoLoad={true}
+                autoLoad={false}
                 fields="name,email,picture"
                 callback={responseFacebook}
                 size="small"
