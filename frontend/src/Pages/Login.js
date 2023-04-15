@@ -3,7 +3,7 @@ import { LoginContext } from '../App'
 
 import Google from '../Component/Google'
 import Facebook from '../Component/Facebook';
-import Google2 from '../Component/Google2';
+// import Google2 from '../Component/Google2';
 import Github from '../Component/Github';
 
 const Login = () => {
