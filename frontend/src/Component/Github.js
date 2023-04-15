@@ -44,7 +44,7 @@ const Github = ({ setter }) => {
                 <img src="/image/github.png" alt="" />
                 <GitHubLogin
                     clientId={process.env.REACT_APP_GITHUB_CLIENT_ID}
-                    redirectUri="http://localhost:3000"
+                    redirectUri={process.env.REACT_APP_GITHUB_REDIRECT_URI}
                     onSuccess={onSuccess}
                     onFailure={onFailure}
                     className="github_button"
